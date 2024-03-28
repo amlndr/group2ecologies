@@ -11,8 +11,8 @@
       <style>
       	body{
   	margin:0;
-      margin-bottom:30px;
-  	padding:30px;
+      margin-bottom:10px;
+  	padding:10px;
   	height:auto;
     background-color: #f1f1f1;
     /* background-image: linear-gradient(to bottom right, #f1f1f1,#5885AF, #050A30);--> */
@@ -54,8 +54,8 @@
 #component{
     margin: 0px;
     margin-top:50px;
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:10%;
+    padding-right:10%;
     text-align: center;
 
 }
@@ -117,7 +117,7 @@ nav{
               Ordinary Things
               </i></p>
           <img src='fulmar-flying.jpeg' width=100% height=100% id='im'>
-          <p style="font-size: 8px;color:grey">
+          <p style="font-size: 10px;color:grey">
             <i>Source:Royal Society for the Protection of Birds</i></p>
         </div>
         
@@ -166,142 +166,7 @@ nav{
           </div>
         </body>
         <footer>
-          <p style="font-size: 8;color:grey;text-align:center;">© 2024 Sarah Albinali, Yingxuan Li, Feni Fauziah, Nadira Amelia
+          <p style="font-size: 10;color:grey;text-align:center;">© 2024 Sarah Albinali, Yingxuan Li, Feni Fauziah, Nadira Amelia
             <br>Design Informatics Students at the University of Edinburgh
             <br>Academic Year 2023/2024</p>
         </footer>
-        
-        <!--
-        <p>Below is the interaction chart:</p>
-        <img src='interact.png' width=70% height=70% id='im'>
-        <p>Based on the chart above, we want our user to understand how their actions can have
-          consequences towards nature. Although nature always evolve at a slower pace, 
-          humans make the change go at a faster rate. And that is what we want our user to feel,
-          and be mindfully curious on how their action can impact nature and its surroundings,
-          including humans.<br><br>
-          Below is our artefact and how the interaction works.
-          
-        </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qZ2RPp27fXo?si=nsrdfMOIFZXt5lKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h1>We have experimented on various ways to implement our idea.</h1>
-        <p>Here's a preview of what we've done so far and how we iterated our idea.</p>
-        
-        
-        <div class="row">
-          <div class="column">
-            <video width="320" height="240" autoplay muted>
-              <source src="v0.MOV" type="video/mp4">
-            </video>
-          </div>
-          <div class="column">
-            <h3>V0</h3>
-            <p>Here we try to experiment on how the planks would behave under the offset
-              axis circles we made.
-            </p>
-          </div>
-        </div>
-
-
-       
-        <div class="row">
-          <div class="column">
-            
-            <video width="320" height="240" autoplay muted loop>
-              <source src="v1.MOV" type="video/mp4">
-            </video>
-          </div>
-          <div class="column">
-            <h3>V1</h3>
-            <p>Since the previous one won't stay put, we changed the design and added a 
-            small dent below the circles so that the plank would stay put.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            
-            <video width="320" height="240" autoplay muted loop>
-              <source src="v2.MOV" type="video/mp4">
-            </video>
-          </div>
-          <div class="column">
-            <h3>V2</h3>
-            <p>Satisfied with our plank design experiment, we wanted to 
-              create something organic and one that would flow as one unit 
-              to mimic the water's waves. Here we try to use different sizes of
-              circles but it didn't move smoothly.
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            
-            <video width="320" height="240" autoplay muted loop>
-              <source src="v4.MOV" type="video/mp4">
-            </video>
-          </div>
-          <div class="column">
-            <h3>V3</h3>
-            <p>We then changed the circles to all have the same size like in 
-              version 0, and it works great. We also added dents underneath the 
-              organic shape to keep she organic shapes in place.
-            </p>
-          </div>
-        </div>
-
-        <h1>Below is a detailed photos for each component.</h1>
-        <div class='row'>
-          <div class='column'>
-            <img src='1_shape.jpg'width=70% height=70% id='im'/>
-            <p><b>The Organic Shape</b><br>
-            Inspired by the Surfbench created by Kim André Lange,
-            we used the shape and fit it in a row to help make a wave-like motion. 
-            </p>
-          </div>
-          <div class='column'>
-            <img src='1_tusuksate.jpg'width=70% height=70% id='im'/>
-            <p><b>The Actuator</b><br>
-            By using 1 actuators and have circles put on it in an offset position,
-            this is what makes the wave motion.
-            </p>
-          </div>
-          <div class='column'>
-            <img src='1_dent.jpg'width=70% height=70% id='im'/>
-            <p><b>The Stabilizer</b>
-            <br>To make the organic shape into place, we use 3 card boards, with the 
-            one in the middle have bits of its parts cut out to fit into the circle.
-            </p>
-          </div>
-        </div>
-        
-        <h1>We also tested our electronics, using a pressure sensor and a grove motor shield
-          with an arduino.
-        </h1>
-        <p>The pressure sensor and the grove motor shield each have their own arduino, connected
-          with wires to communicate to each other. Where the grove motor shield is the client and
-        the pressure sensor as the server.<br>
-        below is the diagram on how it works.
-        </p>
-        <img src='diagram.png' width='800'/>
-        <p>Next we programmed the artefact so that when a person puts a cup on the pressure 
-          sensor, it can detect how much water is in the cup, and it will make the artefact 
-        to start moving in accordance to its weight. Where the less water, the faster the actuator moves.</s> </p>
-      <p>Below is the video of our programming tests with the artefact.</p> 
-      <video width="300"muted controls>
-        <source src="exp.Mp4" type="video/mp4">
-      </video>
-      <p>Our program worked with 100% functionality. The issues lies more on the friection created
-        by the organic shape and the actuator itself.
-      </p>
-      <h1>Though far from perfect, this artefact is a reminder that not
-        all changes can be seen.
-      </h1>-->
-      
- 
-  <!--
-  <nav style='margin-top: 40px;padding-top:50px;'>
-    <a href='main.html'><button>Back to Main Page</button></a>
-    <a href='jakarta.html'><button>Learn more about Jakarta & why it's sinking</button></a>
-</nav>
--->
