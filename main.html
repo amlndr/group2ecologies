@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Maru Mori</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+      <style>
+      	body{
+  	margin:0;
+      margin-bottom:30px;
+  	padding:30px;
+  	height:auto;
+    background-color: #f1f1f1;
+    /* background-image: linear-gradient(to bottom right, #f1f1f1,#5885AF, #050A30);--> */
+    background-attachment: fixed; 
+     
+  min-height: 100%;
+  min-width: 100%;
+   }
+   footer{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 0px;
+   }
+   p{
+       font-size: 16px;
+       text-align:left;
+   }
+   h1{
+       font-size: 50px;
+       text-align:left;
+   }
+   h2{
+       font-size: 25px;
+       text-align:left;
+   }
+
+      /* Style the video: 100% width and height to cover the entire window */
+
+/* Add some content at the bottom of the video/page */
+#box {
+  position: relative;
+  float: left;
+  margin-right:5%;
+  text-align:left;
+  color:#f1f1f1;
+
+
+}
+#component{
+    margin: 0px;
+    margin-top:50px;
+    padding-left:20%;
+    padding-right:20%;
+    text-align: center;
+
+}
+#title{
+  margin:1px;
+}
+
+/* Style the button used to pause/play the video */
+button {
+  
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin:5px;
+}
+nav{
+    padding-right:70px;
+    margin-bottom:3px;
+    margin-right:10px;
+    color:#fff;
+    text-align: right;
+    
+}
+.row {
+  display: flex;
+  text-align:left;
+  margin-bottom:10px;
+}
+
+.column {
+  flex: 50%;
+  text-align:left;
+  padding:1px;
+  
+}
+
+        
+       </style>
+</head>
+<!--
+<nav>
+    <a href='main.html'><button>Back to Main Page</button></a>
+    <a href='jakarta.html'><button>Learn more about Jakarta & why it's sinking</button></a>
+</nav>-->
+
+  <body>
+      
+    <div id='component'>
+      <div id="title">
+        <p><i>Group 2 of Ecology presents</i></p>
+        <h1 style='font-size:50px; padding-bottom: 1px;'>A Fulmar's Maru Mori</h1>
+      </div>
+        <div id='img_fulmar'>
+          <p><b>Maru Mori</b> is defined as <br>
+            <i>The Heartbreaking Simplicity of
+              Ordinary Things
+              </i></p>
+          <img src='fulmar-flying.jpeg' width=100% height=100% id='im'>
+          <p style="font-size: 8px;color:grey">
+            <i>Source:Royal Society for the Protection of Birds</i></p>
+        </div>
+        
+        
+        <h2>About The Fulmars</h2>
+        <p>In 2020, over 86% of 98 investigated fulmars were found with plastic 
+          inside their digestive system. Where over 40% contain over 0.1 gr of 
+          plastic, endangering their health. As the biomonitor of marine litter, 
+          the UK and EU targets to reduce to 10% of fulmars with more than 0.1 gram 
+          of plastic by 2074, as its acceptable threshold. As plastic production 
+          escalates, can they reach their target?</p>
+          
+          <p>Furthermore, <b>unable to differentiate plastic from food, fulmars tend to
+            forage on the surface water and are likely to capture microplastic instead.
+          </b>As parents, the fulmar feed (or transfer) plastic to their fledglings.
+          As the fledgling grew up and have a child of their own, it is likely 
+          that they will also feed plastic to their own fledglings.
+          
+          As in any living creatures, digesting plastic is not healthy. It can cause 
+          tearing inside their body, plastic chemicals absorbed into their body, and much more.
+           Hence, shortening their lifespan.</p>
+           <h2>Our Goal</h2>
+           <p>And so, we would like to show you the brutal realities of fulmars and their
+           future generations. <b>Must their future generations suffer the same grim fate?</b>
+          
+            <p>With Maru Mori, you can explore the changes of these 
+            98 investigated fulmars on the occurrence of plastic found inside 
+            the fulmars that are illustrated through suspended lights. </p>
+
+            <h2><b>How to interact?</b></h2>
+            <p>First, take a look at the gear and explore.</p>
+            <p>Then, try and turn the outer gear which represents
+              the years.
+            </p>
+            <p>Finally, look up and see the light color changes!</p>
+            <h2><b>Acknowledgements</b></h2>
+            <p>We would like to thank all our mentors for supervising our project at Design Informatics,
+              including our workshop technician, Mark Kobine.
+              <br> We would also like to thank the researchers who have researched 
+              this topic, and also the OSPAR Commission, Wageningen Marine Research, Our World Data 
+              for the amazing knowldge, data, and information on this issue. 
+              <br>Finaly, we would like to thank Wood Workshop of ECA for helping us
+              build our installation. 
+            </p>
+            
+          </div>
+        </body>
+        <footer>
+          <p style="font-size: 8;color:grey;text-align:center;">© 2024 Sarah Albinali, Yingxuan Li, Feni Fauziah, Nadira Amelia
+            <br>Design Informatics Students at the University of Edinburgh
+            <br>Academic Year 2023/2024</p>
+        </footer>
+        
+        <!--
+        <p>Below is the interaction chart:</p>
+        <img src='interact.png' width=70% height=70% id='im'>
+        <p>Based on the chart above, we want our user to understand how their actions can have
+          consequences towards nature. Although nature always evolve at a slower pace, 
+          humans make the change go at a faster rate. And that is what we want our user to feel,
+          and be mindfully curious on how their action can impact nature and its surroundings,
+          including humans.<br><br>
+          Below is our artefact and how the interaction works.
+          
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qZ2RPp27fXo?si=nsrdfMOIFZXt5lKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>We have experimented on various ways to implement our idea.</h1>
+        <p>Here's a preview of what we've done so far and how we iterated our idea.</p>
+        
+        
+        <div class="row">
+          <div class="column">
+            <video width="320" height="240" autoplay muted>
+              <source src="v0.MOV" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h3>V0</h3>
+            <p>Here we try to experiment on how the planks would behave under the offset
+              axis circles we made.
+            </p>
+          </div>
+        </div>
+
+
+       
+        <div class="row">
+          <div class="column">
+            
+            <video width="320" height="240" autoplay muted loop>
+              <source src="v1.MOV" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h3>V1</h3>
+            <p>Since the previous one won't stay put, we changed the design and added a 
+            small dent below the circles so that the plank would stay put.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            
+            <video width="320" height="240" autoplay muted loop>
+              <source src="v2.MOV" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h3>V2</h3>
+            <p>Satisfied with our plank design experiment, we wanted to 
+              create something organic and one that would flow as one unit 
+              to mimic the water's waves. Here we try to use different sizes of
+              circles but it didn't move smoothly.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            
+            <video width="320" height="240" autoplay muted loop>
+              <source src="v4.MOV" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h3>V3</h3>
+            <p>We then changed the circles to all have the same size like in 
+              version 0, and it works great. We also added dents underneath the 
+              organic shape to keep she organic shapes in place.
+            </p>
+          </div>
+        </div>
+
+        <h1>Below is a detailed photos for each component.</h1>
+        <div class='row'>
+          <div class='column'>
+            <img src='1_shape.jpg'width=70% height=70% id='im'/>
+            <p><b>The Organic Shape</b><br>
+            Inspired by the Surfbench created by Kim André Lange,
+            we used the shape and fit it in a row to help make a wave-like motion. 
+            </p>
+          </div>
+          <div class='column'>
+            <img src='1_tusuksate.jpg'width=70% height=70% id='im'/>
+            <p><b>The Actuator</b><br>
+            By using 1 actuators and have circles put on it in an offset position,
+            this is what makes the wave motion.
+            </p>
+          </div>
+          <div class='column'>
+            <img src='1_dent.jpg'width=70% height=70% id='im'/>
+            <p><b>The Stabilizer</b>
+            <br>To make the organic shape into place, we use 3 card boards, with the 
+            one in the middle have bits of its parts cut out to fit into the circle.
+            </p>
+          </div>
+        </div>
+        
+        <h1>We also tested our electronics, using a pressure sensor and a grove motor shield
+          with an arduino.
+        </h1>
+        <p>The pressure sensor and the grove motor shield each have their own arduino, connected
+          with wires to communicate to each other. Where the grove motor shield is the client and
+        the pressure sensor as the server.<br>
+        below is the diagram on how it works.
+        </p>
+        <img src='diagram.png' width='800'/>
+        <p>Next we programmed the artefact so that when a person puts a cup on the pressure 
+          sensor, it can detect how much water is in the cup, and it will make the artefact 
+        to start moving in accordance to its weight. Where the less water, the faster the actuator moves.</s> </p>
+      <p>Below is the video of our programming tests with the artefact.</p> 
+      <video width="300"muted controls>
+        <source src="exp.Mp4" type="video/mp4">
+      </video>
+      <p>Our program worked with 100% functionality. The issues lies more on the friection created
+        by the organic shape and the actuator itself.
+      </p>
+      <h1>Though far from perfect, this artefact is a reminder that not
+        all changes can be seen.
+      </h1>-->
+      
+ 
+  <!--
+  <nav style='margin-top: 40px;padding-top:50px;'>
+    <a href='main.html'><button>Back to Main Page</button></a>
+    <a href='jakarta.html'><button>Learn more about Jakarta & why it's sinking</button></a>
+</nav>
+-->
